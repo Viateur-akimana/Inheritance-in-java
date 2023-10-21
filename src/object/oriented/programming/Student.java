@@ -5,12 +5,11 @@ public class Student extends Person {
     private String school;
     private String combination;
     public Student() {
+        super();
 
     }
     public Student(int age, String firstName, String lastName, String grade, String school, String combination) {
-        this.age=age;
-        this.firstName=firstName;
-        this.lastName=lastName;
+        super(age, firstName, lastName);
         this.grade = grade;
         this.school = school;
         this.combination = combination;

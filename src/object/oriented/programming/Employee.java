@@ -4,13 +4,12 @@ package object.oriented.programming;
      private String position;
      private long salary;
      public Employee() {
+         super();
      }
 
      public Employee(String institution, String position, long salary,int age, String firstName, String lastName) {
          //Initialise members of Employee
-         this.age=age;
-         this.firstName=firstName;
-         this.lastName=lastName;
+         super(age,firstName,lastName);
          this.institution=institution;
          this.position=position;
          this.salary=salary;
