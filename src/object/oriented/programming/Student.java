@@ -4,6 +4,25 @@ public class Student extends Person {
     private String grade;
     private String school;
     private String combination;
+    public Student() {
+
+    }
+    public Student(int age, String firstName, String lastName, String grade, String school, String combination) {
+        this.age=age;
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.grade = grade;
+        this.school = school;
+        this.combination = combination;
+    }
+    public Student(String firstName, String lastName, String grade, String school, String combination) {
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.grade = grade;
+        this.school = school;
+        this.combination = combination;
+    }
+
     public String getGrade() {
         return grade;
     }

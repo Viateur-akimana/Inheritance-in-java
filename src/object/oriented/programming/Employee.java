@@ -3,6 +3,20 @@ package object.oriented.programming;
      private String institution;
      private String position;
      private long salary;
+     public Employee() {
+     }
+
+     public Employee(String institution, String position, long salary,int age, String firstName, String lastName) {
+         //Initialise members of Employee
+         this.age=age;
+         this.firstName=firstName;
+         this.lastName=lastName;
+         this.institution=institution;
+         this.position=position;
+         this.salary=salary;
+
+     }
+
 
      public String getInstitution() {
          return institution;
