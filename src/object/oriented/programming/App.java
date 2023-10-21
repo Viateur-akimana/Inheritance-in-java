@@ -11,7 +11,7 @@ public class App {
         p1.setLastName("Davis");
         p1.setAge(18);
         System.out.println(p1);
-        System.out.println(p1.getFirstName());
+
         //Create Employee, Now you can set all properties of employee
         Employee p2=new Employee();
         p2.setAge(18);
